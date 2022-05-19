@@ -11,7 +11,7 @@ function App() {
         <h1>Featured Products</h1>
         {data.products.map((product) => {
           <div>
-            <p>{product.name}</p>
+            <p>these are the products {product.name}</p>
           </div>;
         })}
       </main>
