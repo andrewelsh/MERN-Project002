@@ -1,6 +1,6 @@
 # Bits & Pieces
 
-### Created using:
+### This web application was created using:
 
 1. MongoDB
 2. Express
