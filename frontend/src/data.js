@@ -1,0 +1,41 @@
+const data = {
+  products: [
+    {
+      name: "Shirt",
+      slug: "Shirt-Logo",
+      catagory: "Clothing",
+      image: "/images.p1.jpg",
+      price: 120,
+      contentStock: 10,
+      brand: "Bits&Pieces",
+      rating: 4.5,
+      numReviews: 10,
+      description: "High quaility shirt with custom made logos",
+    },
+    {
+      name: "Water Cup",
+      slug: "Water-Cup",
+      catagory: "Containers",
+      image: "/images.p2.jpg",
+      price: 19.99,
+      contentStock: 32,
+      brand: "Bits&Pieces",
+      rating: 4,
+      numReviews: 3,
+      description: "High quaility Water Cups with custom made logos",
+    },
+    {
+      name: "Coffee Cup",
+      slug: "Coffe-Cup",
+      catagory: "Containers",
+      image: "/images.p3.jpg",
+      price: 18.99,
+      contentStock: 20,
+      brand: "Bits&Pieces",
+      rating: 3.5,
+      numReviews: 4,
+      description: "High quaility Coffee Cups with custom made logos",
+    },
+  ],
+};
+export default data;

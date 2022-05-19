@@ -1,4 +1,5 @@
 import "./App.css";
+import data from "./data.js";
 
 function App() {
   return (
@@ -6,7 +7,14 @@ function App() {
       <header>
         <a href="/">Bits & Pieces</a>
       </header>
-      <main>List Products</main>
+      <main>
+        <h1>Featured Products</h1>
+        {data.products.map((product) => {
+          <div>
+            <p>{product.name}</p>
+          </div>;
+        })}
+      </main>
     </div>
   );
 }
