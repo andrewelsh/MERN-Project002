@@ -1,21 +1,24 @@
 import "./App.css";
-import data from "./data.js";
+import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+import HomeScreen from "./screens/HomeScreen";
+import ProductScreen from "./screens/ProductScreen.js";
 
 function App() {
   return (
-    <div>
-      <header>
-        <a href="/">Bits & Pieces</a>
-      </header>
-      <main>
-        <h1>Featured Products</h1>
-        {data.products.map((product) => {
-          <div>
-            <p>these are the products {product.name}</p>
-          </div>;
-        })}
-      </main>
-    </div>
+    <BrowserRouter>
+      <div>
+        <header>
+          <Link to="/">Bits & Pieces</Link>
+        </header>
+
+        <main>
+          <Routes>
+            <Route path="/product/:slug" element={<ProductScreen />} />
+            <Route path="/" element={<HomeScreen />} />
+          </Routes>
+        </main>
+      </div>
+    </BrowserRouter>
   );
 }
 
