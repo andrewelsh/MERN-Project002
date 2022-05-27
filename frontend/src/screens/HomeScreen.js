@@ -20,7 +20,7 @@ const HomeScreen = () => {
               <p>
                 <strong>${product.price}</strong>
               </p>
-              <button>Add To Cart</button>
+              <button>ADD TO CART</button>
             </div>
           </div>
         ))}
