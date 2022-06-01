@@ -5,7 +5,7 @@ const data = {
       slug: "Shirt-Logo",
       catagory: "Clothing",
       image: "/images/3.jpg",
-      price: 9.99,
+      price: 8.99,
       contentStock: 10,
       brand: "Bits&Pieces",
       rating: 4.5,
@@ -39,7 +39,7 @@ const data = {
     },
     {
       name: "Cheap Shirt",
-      slug: "Shirt-Logo",
+      slug: "Cheap-Shirt-Logo",
       catagory: "Clothing",
       image: "/images/3.jpg",
       price: 8.99,
